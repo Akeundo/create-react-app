@@ -24,7 +24,7 @@ const customStyle = {
     //'Hello World 2' = content of the element
 
 
-ReactDOM.render(
+render(
     helloMessage,
 //<h1> Hello People</h1>,
 document.getElementById('root'));
@@ -209,10 +209,11 @@ function Movie(props) {
 }
 
 function Cinema(props) {
+  //composing component i.e using another component to compose itself
+
   return (
     <div>
       {props.movies.map((movie, index) => {
-        //composing component
         return (
           <Movie
             key={index}
