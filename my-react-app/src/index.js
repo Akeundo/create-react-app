@@ -190,7 +190,7 @@ const greetingMessages ={
             today={now}/>,
             document.getElementById('root2')
         );
-*/
+
 // Exercises solutions
 const movieList = [
   { title: 'transformer', description: 'amazing', staring: 'actor 1' },
@@ -228,6 +228,8 @@ function Cinema(props) {
 }
 
 render(<Cinema movies={movieList} />, document.getElementById('root2'));
+
+*/
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
