@@ -6,6 +6,7 @@ import Car from './components/Car';
 import Loader from './components/Loader';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
+import Info from './components/Info';
 
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
 
@@ -79,6 +80,7 @@ class App extends React.Component {
               code below
               <Route exact path="/" component={Home}></Route>
               <Route exact path="/loader" component={Loader}></Route>
+              <Route exact path="/Info" component={Info}></Route>
               <Route
                 exact
                 path="/carlist"
